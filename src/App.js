@@ -10,6 +10,9 @@ import {
 import Home from "./screens/Home";
 import Login from "./screens/Login";
 import Signin from "./screens/Signin";
+import Cadastro from "./screens/Produto/Cadastro";
+import Consulta from "./screens/Produto/Consulta";
+import Listar from "./screens/Produto/Listagem";
 
 export default function App() {
   return (
@@ -25,7 +28,7 @@ export default function App() {
             <Signin />
           </Route>
           <Route path="/">
-            <Home />
+            <Listar />
           </Route>
         </Switch>
       </div>
